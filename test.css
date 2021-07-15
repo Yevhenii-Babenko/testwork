@@ -6,12 +6,16 @@ body {
     box-sizing: border-box;
   }
   
-  .wrapper {
+  .wrapper, .wrapper__second{
+    background: #ED4C5C;
     border: 1px solid green;
     max-width: 1440px;
-    margin: 0 165px;
+    padding: 0 165px;
   }
   
+  .wrapper__second{
+    background: #FFFFFF;
+  }
   .container {
     border: 1px solid red;
     padding: 122px 0 113px;
